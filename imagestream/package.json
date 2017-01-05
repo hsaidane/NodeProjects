@@ -1,0 +1,18 @@
+{
+  "name": "imagestream",
+  "version": "1.0.0",
+  "description": "node.js soup to bits pub sub server",
+  "main": "app.js",
+  "dependencies": {
+    "axon": "^2.0.0",
+    "express": "^3.0.0",
+    "redis": "^2.6.3",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hatem Saidane",
+  "license": "MIT"
+}
