@@ -5,4 +5,7 @@ Note on how to test this app.
 - Add new badges using curl command:
 $curl -X POST http://localhost:8080 -H "Content-Type:application/json" -d "[{\"badge_id\": \"badgeHs1\"}]"
 - Verify current redis server data.
-# curl http://localhost:8080/badges
+$ curl http://localhost:8080/badges
+
+- redis-cli
+$ redis-cli
